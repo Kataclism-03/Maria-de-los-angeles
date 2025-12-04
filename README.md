@@ -18,6 +18,8 @@ npm run dev        # abre http://localhost:3000
 
 ## Despliegue rápido
 
+> **Nota**: Este repositorio ya cuenta con un flujo de GitHub Actions que reconstruye y publica la página en cada `git push` a `master`. No necesitas ejecutar nada manualmente tras subir cambios.
+
 ### Opción 1: GitHub Pages
 1. Crea un repositorio y sube todo el contenido (incluyendo `assets/audio/cancion.mp3`).
 2. En GitHub → **Settings → Pages** selecciona la rama `main` y carpeta `/ (root)`.
