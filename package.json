@@ -1,0 +1,22 @@
+{
+  "name": "maria-de-los-angeles",
+  "version": "1.0.0",
+  "description": "Carta musical con animación y ondas pastel.",
+  "main": "script.js",
+  "scripts": {
+    "dev": "lite-server",
+    "start": "lite-server",
+    "build:zip": "powershell Compress-Archive -Path * -DestinationPath dist.zip -Force"
+  },
+  "keywords": [
+    "romantico",
+    "tailwind",
+    "landing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
